@@ -23,7 +23,7 @@ jobs:
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
-      working-directory: ${{env.DOTNET_ROOT}}/lorrylogadmin
+      working-directory: ./lorrylogadmin
 
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
