@@ -11,7 +11,6 @@
         [Id] ASC
     )
 )
-
 GO
 
 CREATE UNIQUE NONCLUSTERED INDEX [vName_IDX] ON [dbo].[Vehicle] ([Name])
